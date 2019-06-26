@@ -1,16 +1,22 @@
 import React from 'react';
-//import logo from '../assets/logo.svg';
 import './App.css';
+
+import Header from './components/Header.js';
 
 function App() {
   return (
 
     <div class="wrapper">
-        <div class="left a"> </div>
-        <div class="center b">
+        <div class="left a"> <Header/></div>
+
+        <div class="center b"></div>
+        {/*<div class="center b">
           Hello! My name is Serena.<br></br>
           I am currently working on this. 
-        </div>
+          </div>*/}
+
+
+
         <div class="right c"> </div>
         {/* <div class="left d">D</div>
         <div class="center e">E</div>
