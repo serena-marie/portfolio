@@ -1,30 +1,31 @@
 import React from 'react';
-import './App.css';
+import {Route, HashRouter} from "react-router-dom";
 
+import './App.css';
 import Header from './components/Header.js';
+import Home from './components/Home.js';
+import Projects from './components/Projects.js';
 
 function App() {
   return (
+    <HashRouter>
+      <div class="wrapper">
+        {/* Header */}
+        <div class="appHeader">
+          <Header/>
+        </div>
 
-    <div class="wrapper">
-        <div class="left a"> <Header/></div>
-
-        <div class="center b"></div>
-        {/*<div class="center b">
-          Hello! My name is Serena.<br></br>
-          I am currently working on this. 
-          </div>*/}
-
-
-
-        <div class="right c"> </div>
-        {/* <div class="left d">D</div>
-        <div class="center e">E</div>
-        <div class="right f">F</div>
-        <div class="left g">D</div>
-        <div class="center h">E</div>
-  <div class="right i">F</div> */}
-      </div>
+        {/* Body  */}
+        <div class="appBody"> 
+          <Route exact path="/" component={Home}/>
+          <Route path="/projects" component={Projects}/>
+        </div>
+  
+        {/* Footer */}
+        <div class="appFooter"> </div>
+      </div> 
+    </HashRouter>
+    
   );
 }
 
