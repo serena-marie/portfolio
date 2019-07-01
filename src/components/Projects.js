@@ -5,7 +5,7 @@ class Project extends React.Component{
     render(){
         return(
            <div class="wrapper">
-               <h2>Project Page</h2>
+               ** Work In Progress ** 
            </div>
         ); //end return
     }//end render

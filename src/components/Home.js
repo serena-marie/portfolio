@@ -7,10 +7,9 @@ class Home extends React.Component{
             <div class="wrapper">
                 <div class="centeredHeader">
                     Hi! My name is Serena. I am currently working on this.
-                </div>
-
-                <div>
-                    Blee Blee Blop.
+                    <p>
+                    In the meantime, checkout my <a href="https://github.com/serena-marie">Github!</a> 
+                    </p>
                 </div>
             </div>
             
