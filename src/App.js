@@ -8,7 +8,7 @@ import Projects from './components/Projects.js';
 
 function initReactGA(){
   ReactGA.initialize('UA-143101404-1');
-  ReactGA.pageview('#'); //test
+  //ReactGA.pageview('#'); //test
 }
 function App() {
   return (
