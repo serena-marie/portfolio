@@ -7,13 +7,13 @@ import Home from './components/Home.js';
 import Projects from './components/Projects.js';
 
 ReactGA.initialize('UA-143101404-1');
-/*function initReactGA(){
-  ReactGA.initialize('UA-143101404-1');
-  //ReactGA.pageview('#'); //test
-}*/
+function initReactGA(){
+  //ReactGA.initialize('UA-143101404-1');
+  ReactGA.pageview('window.location.hash'); //test
+}
 function App() {
   return (
-    <HashRouter>
+    <HashRouter onUpdate={initReactGA}>
       <div class="wrapper">
         {/* Header */}
         <div class="appHeader">
