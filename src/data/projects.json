@@ -1,0 +1,37 @@
+[
+    {
+        "title":"React Portfolio",
+        "info":" (This website!) A brief description.",
+        "image":"test.jpg",
+        "url":"http://www.github.com/serena-marie",
+        "tech": "A, List, Goes, Here"
+    },
+    {
+        "title":"To Do List",
+        "info":"A brief description.",
+        "image":"test.jpg",
+        "url":"http://www.github.com/serena-marie",
+        "tech": ""
+    },
+    {
+        "title":"Out-of-The-Woods",
+        "info":"A brief description.",
+        "image":"test.jpg",
+        "url":"http://www.github.com/serena-marie",
+        "tech": ""
+    },
+    {
+        "title":"Emotion Recognition",
+        "info":"(Offline) A brief description.",
+        "image":"test.jpg",
+        "url":"http://www.github.com/serena-marie",
+        "tech": ""
+    },
+    {
+        "title":"Vehicle Search: Color Identification",
+        "info":"A brief description.",
+        "image":"test.jpg",
+        "url":"http://www.github.com/serena-marie",
+        "tech": ""
+    }
+]
