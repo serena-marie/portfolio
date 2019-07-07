@@ -1,12 +1,14 @@
 [
     {
+        "id": 1,
         "title":"React Portfolio",
-        "info":" (This website!) A brief description.",
+        "info":" (This website!) A brief description. Test Test Test. What happens when there's a lot of text here. Hmmm. Test Check Mic One two three four five six seven",
         "image":"test.jpg",
         "url":"http://www.github.com/serena-marie",
         "tech": "A, List, Goes, Here"
     },
     {
+        "id": 2,
         "title":"To Do List",
         "info":"A brief description.",
         "image":"test.jpg",
@@ -14,6 +16,7 @@
         "tech": ""
     },
     {
+        "id": 3,
         "title":"Out-of-The-Woods",
         "info":"A brief description.",
         "image":"test.jpg",
@@ -21,6 +24,7 @@
         "tech": ""
     },
     {
+        "id": 4,
         "title":"Emotion Recognition",
         "info":"(Offline) A brief description.",
         "image":"test.jpg",
@@ -28,6 +32,7 @@
         "tech": ""
     },
     {
+        "id": 5,
         "title":"Vehicle Search: Color Identification",
         "info":"A brief description.",
         "image":"test.jpg",
