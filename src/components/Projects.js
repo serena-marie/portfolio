@@ -5,7 +5,7 @@ class Project extends React.Component {
   render (){
     return(
       <div>
-        <h1>Recent Work:</h1>
+        <h3>Recent Work:</h3>
         <ProjectCard/>
       </div>
     )

@@ -35,15 +35,20 @@ class ProjectCard extends React.Component{
                         className="cardImage"
                         image={require('../assets/'+detail.image)}/>
                             <CardContent>
-                                <Typography gutterBottom variant="h5" component="h2">
+                                <Typography variant="h5" component="h2">
                                     {detail.title}
                                 </Typography>
+                                <Typography paragraph variant="caption" color="textPrimary">{detail.role}</Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     {detail.info}
                                 </Typography>
+                                <Typography variant="overline">
+                                    <b>Tech Used: </b>
+                                    {detail.tech}
+                                </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Source Code</Button>            
+                                <Button size="small" href={detail.url} target="_blank">Source Code</Button>            
                             </CardActions>
                     </CardActionArea>
                 </Card>

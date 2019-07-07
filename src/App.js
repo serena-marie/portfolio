@@ -19,18 +19,15 @@ class App extends React.Component {
     return (
       <HashRouter>
         <div class="wrapper">
-          {/* Header */}
           <div class="appHeader">
             <Header/>
           </div>
 
-          {/* Body */}
           <div class="appBody"> 
             <Route exact path="/" component={Home}/>
             <Route path="/projects" component={Projects}/>
           </div>
-    
-          {/* Footer */}
+          
           <div class="appFooter"> </div>
         </div> 
       </HashRouter>
