@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';
+import Footer from './components/Footer.js';
 
 class App extends React.Component {
 
@@ -27,8 +28,10 @@ class App extends React.Component {
             <Route exact path="/" component={Home}/>
             <Route path="/projects" component={Projects}/>
           </div>
-          
-          <div class="appFooter"> </div>
+
+          <div class="appFooter">
+            <Footer/>
+          </div>
         </div> 
       </HashRouter>
     );
