@@ -2,5 +2,7 @@
 
 ** Work In Progress **
 
-This is my personal website created using React.
+Hi! I'm Serena. A software engineer based out of San Francisco, CA.
+
+This is my portfolio I created as a means to become more familiar with React.
 

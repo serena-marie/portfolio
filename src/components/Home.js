@@ -15,6 +15,7 @@ class Home extends React.Component{
                 </div>
             </div>
             <p>I'm a recent Computer Science graduate from Texas State University. I love learning new technologies and am constantly striving to challenge myself. I thrive in agile environments because I believe communication is of the utmost importance.</p>
+            <p style={{fontStyle: 'italic',}}>This website is a work in progress!</p>
             </div>
             
         ); //end return
