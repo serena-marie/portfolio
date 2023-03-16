@@ -1,26 +1,35 @@
 [
     {
+        "id": 6,
+        "title": "Pomoclone",
+        "role": "Software Engineer",
+        "info": "(In progress) Reverse engineering the website pomofocus.io a time management timer following the Pomodoro technique. Planning to later incorpate d3.js",
+        "image": "test.jpg",
+        "url": "",
+        "tech": "React, React-Redux"
+    },
+    {
         "id": 1,
         "title": "React Portfolio",
-        "role": "Sole Developer",
+        "role": "Software Engineer",
         "info": "(This website!) A single page application displaying my recent works.",
         "image": "test.jpg",
         "url": "https://github.com/serena-marie/portfolio",
-        "tech": "React, Material-UI, Git"
+        "tech": "React, Git"
     },
     {
         "id": 2,
         "title":"To Do List",
-        "role": "Sole Developer",
+        "role": "Software Engineer",
         "info": "A simple CRUD application that allows users to add, delete, and modify their to do list with tasks.",
         "image": "todo.png",
-        "url": "http://www.github.com/serena-marie/ToDoFlaskAdmin",
+        "url": "https://www.github.com/serena-marie/ToDoFlaskAdmin",
         "tech": "Python3, Flask, Flask Admin, Flask Security, SQLAlchemy, SQLite, Bootstrap"
     },
     {
         "id": 3,
         "title": "Out-of-The-Woods",
-        "role": "Software Engineer, Project Manager, Scrum Master",
+        "role": "Software Engineer / Project Manager",
         "info": "A safety mobile application developed for a Software Engineering class by a team of Computer Science students. Developed for iOS and Android.",
         "image": "ootw.png",
         "url": "https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods",
@@ -32,7 +41,7 @@
         "role": "Software Engineer",
         "info": "(Offline) Worked with another Computer Science student to train a neural network to identify different types of human facial emotions.",
         "image": "emo.png",
-        "url": "http://www.github.com/serena-marie",
+        "url": "",
         "tech": "Matlab, GoogLeNet"
     },
     {
