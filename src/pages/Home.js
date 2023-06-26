@@ -1,8 +1,23 @@
 import React from 'react'
+import { updatePageTitle } from '../utils/updatePageTitle'
 import '../styles/home.scss'
 import me from '../assets/me.jpg'
 
 class Home extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      hasTitleUpdate: false
+    }
+  }
+
+  componentDidMount () {
+    if (!this.hasTitleUpdate) {
+      updatePageTitle()
+      this.hasTitleUpdate = true
+    }
+  }
+
   render () {
     return (
             <div>
