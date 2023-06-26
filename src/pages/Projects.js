@@ -1,7 +1,21 @@
 import React from 'react'
 import Card from '../components/Card.js'
-
+import { updatePageTitle } from '../utils/updatePageTitle.js'
 class Project extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      hasTitleUpdate: false
+    }
+  }
+
+  componentDidMount () {
+    if (!this.hasTitleUpdate) {
+      updatePageTitle('Projects')
+      this.hasTitleUpdate = true
+    }
+  }
+
   render () {
     return (
       <div>
