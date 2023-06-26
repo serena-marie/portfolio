@@ -11,7 +11,6 @@ class Project extends React.Component {
 
   componentDidMount () {
     if (!this.hasTitleUpdate) {
-      console.log('In projects, updatingPageTitle')
       updatePageTitle('Projects')
       this.hasTitleUpdate = true
     }
