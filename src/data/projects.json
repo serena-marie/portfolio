@@ -3,9 +3,9 @@
         "id": 6,
         "title": "Pomoclone",
         "role": "Software Engineer",
-        "info": "(In progress) Reverse engineering the website pomofocus.io a time management timer following the Pomodoro technique. Planning to later incorpate d3.js",
-        "image": "test.jpg",
-        "url": "",
+        "info": "A time management timer following the Pomodoro technique, inspired by pomofocus.io. Planning to later incorpate d3.js",
+        "image": "pomoclone.png",
+        "url": "https://github.com/serena-marie/pomoclone",
         "tech": "React, React-Redux"
     },
     {
@@ -13,9 +13,9 @@
         "title": "React Portfolio",
         "role": "Software Engineer",
         "info": "(This website!) A single page application displaying my recent works.",
-        "image": "test.jpg",
+        "image": "portfolio.png",
         "url": "https://github.com/serena-marie/portfolio",
-        "tech": "React, Git"
+        "tech": "React, SASS, GitHub Actions"
     },
     {
         "id": 2,
