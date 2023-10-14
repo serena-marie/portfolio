@@ -1,0 +1,14 @@
+@import './variables.scss';
+.wrapper {
+  display:flex;
+  font-size: 1.15em;
+  background-color: $primary-background;
+  height: 100vh;
+  font-family: 'poppins', 'roboto', sans-serif;
+}
+
+.appBody {
+  color: $primary-text;
+  display: flex;
+  padding: 2rem;
+}
