@@ -1,6 +1,6 @@
 import React from 'react'
 import { cardDetailsType } from './types'
-import './../styles/card.scss'
+// import './../styles/card.scss'
 
 function CardDetails ({ details }) {
   function handleClick (e) {

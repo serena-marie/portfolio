@@ -1,29 +1,14 @@
-// import React from 'react'
-// import CardDetails from './CardDetails'
-// import data from '../data/projects.json'
-// // import './../styles/card.scss'
-
-// export default function Card () {
-//   return (
-//     <div className='cardsContainer'>
-//     {data.map((detail, index) => {
-//       return <CardDetails key={index} details={detail}/>
-//     })}
-//     </div>
-//   )
-// }
+// // Note to self: Rename to Projects.js
 import projectData from '../data/projects.json'
+import ProjectsList from './ProjectsList'
+import Card from './Card'
+import '../styles/Projects.scss'
 
-export default function Card () {
-  
-}
 
-
-/**
- * 
- * 
- * 
- *       <div className='cardsContainer'>
+export default function ProjectsCollection() {
+  return(
+    <div className='projectHighlights'>
+      <div className='cardsContainer'>
         <div className='projectCard'>
           <div className='cardImage'>
             <img src='https://placekitten.com/988/556'/>
@@ -71,4 +56,6 @@ export default function Card () {
           </div>
         </div>
       </div>
- */
+    </div>
+  )
+}

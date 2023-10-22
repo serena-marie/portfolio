@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+.projectHighlights {
+
+}
+// Cards.scss
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  // height: 50vh;
+}
+.projectCard {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  max-width: 640px; /* max image size*/
+  height: 100%;
+}
+.cardContent {
+  padding: 0.5em;
+  margin: 0.5em;
+  // height: 100%;
+}
+.cardImage {
+  img {
+    border-radius: 5px 5px 0px 0px;
+  }
+}
+.cardHeader {
+  text-align: right;
+  // margin: 0.25rem;
+}
+.projectTech {
+  display: inline-block;
+  // padding: 0.5em;
+  margin: 0.5em 0.5em;
+  // text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.cardProjectInformation {
+  margin: 0.5em 0em;
+}
+.projectTitle {
+  margin: 0.5em 0em 0.25em 0em;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.projectSummary {
+  margin: 0.5em 0em;
+}
+.cardFooter {
+  text-align: center;
+}
+.projectLink {
+  padding: 0.5em;
+  margin: 0.5em 0.25em;
+  border: none;
+  transition: all 0.5s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: $secondary-contrast;
+  background: linear-gradient(to right, $primary-background-contrast 50%, $secondary-contrast 50%,);
+  background-size: 250% 100%;
+  background-position: right bottom;
+  transition: all .8s ease-out;
+  color: $primary-background-contrast;
+}
+.projectLink:hover, .projectLink:active {
+  background-position: left bottom;
+  color:  inherit;
+}
+.projectSummary {
+  font-size: 1.5rem;
+}
+.projectDescription {
+  font-size: 1rem;
+}

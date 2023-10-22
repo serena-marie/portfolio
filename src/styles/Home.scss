@@ -1,0 +1,29 @@
+@import './variables.scss';
+.homeContainer {
+  height: 100%;
+  display: flex;
+  gap: 5rem;
+}
+.aboutPanel {
+  display: flex;
+  flex: 1;
+  height: 100%; 
+  gap: 2rem;
+  min-width: 404px;
+}
+.stickyContent {
+  position: sticky;
+  align-self: flex-start;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
+.projectsPanel {
+  flex: 2;
+  padding: 2rem;
+}
