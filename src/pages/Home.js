@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Home.scss'
 import SuperHeroIntro from '../components/SuperHeroIntro'
 import ProjectsList from '../components/ProjectsList'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <div className='stickyContent'>
           <SuperHeroIntro/>
           <div className='quickNav'>
-            <button className='navButton'>Learn more about me</button>
+            <Link to='/about'>
+              <button className='navButton'>Learn more about me</button>
+            </Link>
           </div>
         </div>
       </div> 
