@@ -3,29 +3,33 @@
         "id": 6,
         "title": "Pomoclone",
         "role": "Software Engineer",
-        "info": "A time management timer following the Pomodoro technique, inspired by pomofocus.io. Planning to later incorpate d3.js",
+        "blurb": "A time management timer following the Pomodoro technique, inspired by pomofocus.io.",
+        "info": "This project uses React Redux state management to store user settings and timer data. It also uses local storage to replenish Redux store and persist the applications state across sessions. My inspiration for this project was that while using the Pomodoro technique, there were features I was craving - the need to add 5 more minutes to a timer to wrap up work, the desire to visual the pomodoro in a timeline format. I'm continuing to work on this to make these features possible, but it is deployed as a minimal timer.",
         "image": "pomoclone.png",
-        "url": "https://github.com/serena-marie/pomoclone",
-        "tech": "React, React-Redux",
+        "sourceCode": "https://github.com/serena-marie/pomoclone",
+        "url": "https://pomoclone.vercel.app/",
+        "tech": ["React", "React-Redux", "SASS", "Git"],
         "highlight": true
     },
     {
         "id": 1,
         "title": "React Portfolio",
         "role": "Software Engineer",
-        "info": "(This website!) A single page application displaying my recent works.",
+        "blurb": "(This very website!)",
+        "info": "A component-based single page application displaying some projects I've worked on.",
         "image": "portfolio.png",
-        "url": "https://github.com/serena-marie/portfolio",
-        "tech": "React, SASS, GitHub Actions"
+        "sourceCode": "https://github.com/serena-marie/portfolio",
+        "url": "https://www.serenagutierrez.com/",
+        "tech": ["React", "GitHub Actions", "SASS", "Git"]
     },
     {
         "id": 2,
         "title":"To Do List",
         "role": "Software Engineer",
-        "info": "A simple CRUD application that allows users to add, delete, and modify their to do list with tasks.",
+        "info": "A simple application that allows users to add, delete, and modify their to do list with tasks with protected user and admin views.",
         "image": "todo.png",
-        "url": "https://www.github.com/serena-marie/ToDoFlaskAdmin",
-        "tech": "Python3, Flask, Flask Admin, Flask Security, SQLAlchemy, SQLite, Bootstrap",
+        "sourceCode": "https://www.github.com/serena-marie/ToDoFlaskAdmin",
+        "tech": ["Python3", "Flask", "Flask Admin", "Flask Security", "SQLAlchemy", "SQLite", "Bootstrap"],
         "highlight": true
     },
     {
@@ -34,8 +38,8 @@
         "role": "Software Engineer / Project Manager",
         "info": "A safety mobile application developed for a Software Engineering class by a team of Computer Science students. Developed for iOS and Android.",
         "image": "ootw.png",
-        "url": "https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods",
-        "tech": "React-Native, Git"
+        "sourceCode": "https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods",
+        "tech": ["React Native", "Git"]
     },
     {
         "id": 4,
@@ -43,16 +47,17 @@
         "role": "Software Engineer",
         "info": "(Offline) Worked with another Computer Science student to train a neural network to identify different types of human facial emotions.",
         "image": "emo.png",
-        "url": "",
-        "tech": "Matlab, GoogLeNet"
+        "sourceCode": "",
+        "tech": ["Matlab", "GoogLeNet"]
     },
     {
         "id": 5,
         "title": "Vehicle Search: Color Identification",
         "role": "Software Engineer",
-        "info": "Worked on a team to develop a vehicle recognition program based on model & color using Machine Learning concepts. I was soley responsible for the color identification portion which I classified using the K-Means algorithm.",
+        "info": "Worked on a team to develop a vehicle recognition program based on model & color using Machine Learning concepts. I was responsible for the color identification portion which I classified using the K-Means algorithm.",
         "image": "color.png",
-        "url": "https://github.com/serena-marie/AMBER-alert",
-        "tech": "Python3, NumPy, OpenCV"
+        "sourceCode": "https://github.com/serena-marie/AMBER-alert",
+        "tech": ["Python3", "NumPy", "OpenCV"],
+        "highlight": true
     }
 ]
