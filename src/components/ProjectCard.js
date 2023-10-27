@@ -1,9 +1,13 @@
 import './../styles/Projects.scss'
 export default function ProjectCard({details, index}) { 
 
-  function handleClick (e) {
+  function handleClick (e, type) {
     e.stopPropagation()
-    return details.url ? window.open(details.url, '_blank') : ''
+    const url = type === 'sourceCode' ? details?.sourceCode : details?.url;
+    
+    if (url) {
+      window.open(url, '_blank');
+    }
   }
 
   function setImageUrl () {
@@ -39,8 +43,8 @@ export default function ProjectCard({details, index}) {
           <p className='projectDescription'>{details.info}</p>
         </div>
         <div className='cardFooter'>
-          { isLiveSiteAvailable() ? <button className='siteLink projectLink'>Site</button> : ' '}
-          { isSourceCodeAvailable() ? <button className='sourceCodeLink projectLink'>Source Code</button> : ''}
+          { isLiveSiteAvailable() ? <button className='siteLink projectLink' onClick={handleClick}>Site</button> : ' '}
+          { isSourceCodeAvailable() ? <button className='sourceCodeLink projectLink' onClick={(e) => handleClick(e, 'sourceCode')}>Source Code</button> : ''}
         </div>
       </div>
     </div>

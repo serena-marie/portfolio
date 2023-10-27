@@ -15,11 +15,11 @@
         "id": 1,
         "title": "React Portfolio",
         "role": "Software Engineer",
-        "blurb": "(This very website!)",
+        "blurb": "This very website!",
         "info": "A component-based single page application displaying some projects I've worked on.",
         "image": "portfolio.png",
         "sourceCode": "https://github.com/serena-marie/portfolio",
-        "url": "https://www.serenagutierrez.com/",
+        "url": "",
         "tech": ["React", "GitHub Actions", "SASS", "Git"]
     },
     {
