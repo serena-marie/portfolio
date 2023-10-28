@@ -12,7 +12,7 @@ class App extends React.Component {
         <div className="appContainer">
           <div className="appBody">
             <Route exact path="/" component={Home}/>
-            <Route exact path="/about" component={About}/>
+            <Route path="/about" component={About}/>
           </div>
         </div>
       </HashRouter>
