@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   gap: 5rem;
+  padding: 2rem;
 }
 .aboutPanel {
   display: flex;
@@ -24,7 +25,20 @@
   align-items: center;
   padding: 2rem;
 }
-.projectsPanel {
-  flex-grow: 2;
-  padding: 2rem;
+.projectsPanel { 
+  flex: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .stickyContent {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+  .homeContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
 }

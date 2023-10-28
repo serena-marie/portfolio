@@ -20,13 +20,12 @@
   flex-direction: column;
   align-items: center;
   margin: 0.5rem;
-  // background-color: green;
 }
 
 .title {
   flex: 2;
   font-size: 4rem;
-  letter-spacing: 1.2rem;
+  letter-spacing: 0.75rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: $secondary-contrast;
@@ -78,10 +77,33 @@
   font-size: 1rem;
   padding: 0.25rem;
   margin-bottom: 1rem;
-  background-color: $tertiary-contrast;
-  border-bottom: 3px solid $secondary-contrast;
-  
+  background-color: $secondary-contrast;
+  border-bottom: 3px solid none;
+  color: $primary-background-contrast;
 }
 .fontAwesomeIcons {
-  color: $primary-text;
+  color: $secondary-contrast;
+
+}
+
+@media screen and (max-width: 850px) {
+  .aboutContainer {
+    max-width: 36ch;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .pictureOfMe {
+    img {
+      max-width: 325px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
 }
