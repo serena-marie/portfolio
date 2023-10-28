@@ -17,7 +17,7 @@
     "sass": "^1.59.2",
     "stylelint-scss": "^4.5.0"
   },
-  "homepage": "https://serena-marie.github.io/portfolio",
+  "homepage": "http://www.serenagutierrez.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
