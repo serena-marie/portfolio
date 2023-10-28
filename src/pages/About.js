@@ -27,15 +27,15 @@ export default function About() {
           <p className='socialMediaIntro'>You can also find me around the internet, sometimes:</p>
           <div className='socialMediaLinks'>
             <div className='link'>
-              <FontAwesomeIcon icon={faGithub} className='fontAwesomeIcons'/> <a href='https://github.com/serena-marie' target='_blank'>GitHub</a>
+              <FontAwesomeIcon icon={faGithub} className='fontAwesomeIcons'/> <a href='https://github.com/serena-marie' target='_blank' rel='noreferrer'>GitHub</a>
             </div>
             <div className='link'>
-              <FontAwesomeIcon icon={faLinkedin} className='fontAwesomeIcons'/> <a href='https://linkedin.com/in/serenacodes'>LinkedIn</a>
+              <FontAwesomeIcon icon={faLinkedin} className='fontAwesomeIcons'/> <a href='https://linkedin.com/in/serenacodes' target='_blank' rel='noreferrer'>LinkedIn</a>
             </div>
           </div>
         </div>
       </div>
-      <Link to="/" ><button className="projectLink">Back</button></Link>
+      <Link to="/" ><button className="backButton">Back</button></Link>
     </div>
   )
 }

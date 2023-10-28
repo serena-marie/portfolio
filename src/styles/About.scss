@@ -43,23 +43,19 @@
   font-style: italic;
   margin: 0.5rem;
 }
-.projectLink {
+.backButton {
   padding: 0.5em;
   margin: 0.5em 0.25em;
   border: none;
-  transition: all 0.5s;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  background-color: $secondary-contrast;
-  background: linear-gradient(to right, $primary-background-contrast 50%, $secondary-contrast 50%,);
-  background-size: 250% 100%;
-  background-position: right bottom;
+  background: linear-gradient(to right, $primary-background-contrast 50%, $secondary-contrast 50%) right bottom / 250% 100%;
   transition: all .8s ease-out;
   color: $primary-background-contrast;
 }
-.projectLink:hover, .projectLink:active {
+.backButton:hover, .backButton:active {
   background-position: left bottom;
-  color:  inherit;
+  color:  $primary-text; // inherit didn't work out here, possible because of <a> just before? 
 }
 .socialMediaLinks {
   display: flex;

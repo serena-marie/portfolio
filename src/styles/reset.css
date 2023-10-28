@@ -3,7 +3,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, span
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font: 100% inherit;
 	vertical-align: baseline;
 }

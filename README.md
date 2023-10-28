@@ -1,4 +1,5 @@
 # Portfolio
+[![CodeFactor](https://www.codefactor.io/repository/github/serena-marie/portfolio/badge)](https://www.codefactor.io/repository/github/serena-marie/portfolio)
 
 Hi! I'm Serena. I'm a software engineer based out of San Francisco, CA. 🤠
 

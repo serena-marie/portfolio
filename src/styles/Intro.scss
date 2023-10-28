@@ -32,13 +32,9 @@
     padding: 0.5em 2em;
     border: none;
     font-size: 1.25rem;
-    transition: all 0.5s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    background-color: $primary-background-contrast;
-    background: linear-gradient(to right, $secondary-contrast 50%, $primary-background-contrast 50%);
-    background-size: 250% 100%;
-    background-position: right bottom;
+    background: linear-gradient(to right, $secondary-contrast 50%, $primary-background-contrast 50%) right bottom / 250% 100%;
     transition: all .8s ease-out;
   }
 
