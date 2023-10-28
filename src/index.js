@@ -1,5 +1,4 @@
 import React, { StrictMode } from 'react'
-import './styles/index.css'
 import App from './App.js'
 import * as serviceWorker from './serviceWorker'
 import { createRoot } from 'react-dom/client'

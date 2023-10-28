@@ -1,0 +1,65 @@
+@import './variables.scss';
+
+.superheroContainer {
+  background-color: $primary-background-contrast;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.superheroTitle {
+  flex: 2;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0.25em;
+}
+.superheroSubtitle {
+  flex: 1;
+  font-size: 1.5rem;
+  margin: 0.25em;
+  padding: 0.25em 0em;
+}
+.sectionDivider {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(231, 224, 224);
+  position: relative; // set the divider width relative to its parent
+  left: 0px;
+}
+.quickNav {  
+  .navButton {
+    padding: 0.5em 2em;
+    border: none;
+    font-size: 1.25rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: linear-gradient(to right, $secondary-contrast 50%, $primary-background-contrast 50%) right bottom / 250% 100%;
+    transition: all .8s ease-out;
+  }
+
+  .navButton:hover, .navButton:focus {
+    background-position: left bottom;
+    color:  $primary-background-contrast;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .superheroContainer {
+    max-width: 640px;
+    text-align: center;
+  }
+  .superheroTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .superheroContainer {
+    max-width: 320px;
+    text-align: center;
+  }
+  .superheroTitle {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+body {
+  background-color: $primary-background;
+  // https://bgjar.com/
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3cpath d='M-202.26 225.53C-59.73 230.92 94.23 445.92 317.52 460.73 540.81 475.54 495.57 653.5 577.41 665.27' stroke='rgba(128%2c 149%2c 153%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-244.84 421.63C-116.3 420.29-1.18 280.99 249.92 281.63 501.03 282.27 598.96 581.29 744.69 594' stroke='rgba(128%2c 149%2c 153%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-48.95 419.62C64.23 414.64 148.31 221.8 359.62 223.62 570.92 225.44 627.04 602.18 768.18 635.79' stroke='rgba(128%2c 149%2c 153%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-82.12 156.4C30.07 167.79 75.55 392.47 292 408.4 508.44 424.33 561.54 591.44 666.11 596.65' stroke='rgba(128%2c 149%2c 153%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-65.8 141.87C105.92 142.8 330.14 283.58 604.25 293.07 878.37 302.56 830.37 562.74 939.28 581.7' stroke='rgba(128%2c 149%2c 153%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.appContainer {
+  display: flex;
+  padding: 1em;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.15em;
+  font-family: 'poppins', 'roboto', sans-serif;
+}
+.appBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: $primary-text;
+  padding: 2rem;
+}

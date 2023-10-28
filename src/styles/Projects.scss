@@ -1,0 +1,78 @@
+@import './variables.scss';
+
+// Cards.scss
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.projectCard {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  max-width: 640px; /* max image size*/
+}
+.cardContent {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.cardImage {
+  img {
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+  }
+}
+.cardHeader {
+  text-align: right;
+}
+.projectTech {
+  display: inline-block;
+  margin: 0.5em;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.cardProjectInformation {
+  margin: 0.5em 0em;
+}
+.projectTitle {
+  margin: 0.5em 0em 0.25em; /* top | left and right | bottom */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.cardFooter {
+  text-align: center;
+}
+.projectLink {
+  padding: 0.5em;
+  margin: 0.5em 0.25em;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: linear-gradient(to right, $primary-background-contrast 50%, $secondary-contrast 50%) right bottom / 250% 100%;
+  transition: all .8s ease-out;
+  color: $primary-background-contrast;
+}
+.projectLink:hover, .projectLink:active {
+  background-position: left bottom;
+  color:  inherit;
+}
+.projectSummary {
+  margin: 0.5em 0em;
+  font-size: 1.5rem;
+}
+.projectDescription {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .projectCard {
+    max-width: 320px;
+  }
+  .cardImage {
+    img {
+      max-width: 320px;
+    }
+  }
+}

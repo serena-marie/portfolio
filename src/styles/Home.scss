@@ -1,0 +1,44 @@
+@import './variables.scss';
+.homeContainer {
+  height: 100%;
+  display: flex;
+  gap: 5rem;
+  padding: 2rem;
+}
+.aboutPanel {
+  display: flex;
+  flex: 1;
+  height: 100%; 
+  gap: 2rem;
+  min-width: 404px;
+}
+.stickyContent {
+  position: sticky;
+  align-self: flex-start;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
+.projectsPanel { 
+  flex: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .stickyContent {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+  .homeContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+}
