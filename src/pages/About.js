@@ -1,10 +1,21 @@
+import {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/About.scss'
 import me from '../assets/me.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { updatePageTitle } from '../utils/updatePageTitle'
 
 export default function About() {
+  const [hasTitleUpdate, setHasTitleUpdate] = useState(false);
+
+  useEffect(() => {
+    if (!hasTitleUpdate) {
+      updatePageTitle('About');
+      setHasTitleUpdate(true);
+    }
+  }, [hasTitleUpdate]);
+
   return(
     <div className="aboutContainer">
       <div className='pictureOfMe' >
