@@ -26,7 +26,7 @@ export default function ProjectCard({details, index}) {
   return (
     <div className='projectCard'>
         <div className='cardImage'>
-          <img src={setImageUrl()} alt={`${details.name} project`} width={'640px'} height={'360px'}/>
+          <img src={setImageUrl()} alt={`${details?.title} project`} width={'640px'} height={'360px'}/>
         </div>
       <div className='cardContent'>
         <div className='cardHeader'>
