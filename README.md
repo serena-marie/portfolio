@@ -20,11 +20,11 @@ GitHub Actions Deployment Workflow
 ![A screenshot of the GitHub Actions deployment](./readme-assets/portfolio_ghpages_deployment.png)
 
 <details>
-<summary> This page has gone through some redesigns, if you're curious about how it used to look, toggle me!</summary>
+<summary> This website has gone through some redesigns, if you're curious about how it used to look, toggle me!</summary>
 
 About Page
-![A screenshot of the About Page from the portfolio](./readme-assets/old_portfolio_about.png)
+![An old screenshot of the About Page from the portfolio](./readme-assets/old_portfolio_about.png)
 
 Projects Page
-![A screenshot of the Projects Page from the portfolio](./readme-assets/old_portfolio_projects.png)
+![An old screenshot of the Projects Page from the portfolio](./readme-assets/old_portfolio_projects.png)
 </details>
