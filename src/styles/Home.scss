@@ -1,14 +1,12 @@
-@import './variables.scss';
 .homeContainer {
-  height: 100%;
   display: flex;
-  gap: 5rem;
   padding: 2rem;
+  height: 100%;
 }
 .aboutPanel {
   display: flex;
   flex: 1;
-  height: 100%; 
+  height: 100%;
   gap: 2rem;
   min-width: 404px;
 }
@@ -30,15 +28,22 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .stickyContent {
-    position: static;
-    top: auto;
-    transform: none;
-  }
   .homeContainer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
+    padding: 1rem;
+  }
+  .stickyContent {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutPanel {
+    min-width: auto;
   }
 }
